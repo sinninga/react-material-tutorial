@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import AppBar from '@material-ui/core/AppBar';
+import { Grid } from '@material-ui/core';
 
 class Body extends Component {
   constructor(props) {
@@ -8,9 +8,14 @@ class Body extends Component {
 
   render() {
     return (
-      <div>
-        nicebody
-      </div>
+      <Grid container>
+        <Grid item>
+          Left Grid
+        </Grid>
+        <Grid item>
+          Right Grid
+        </Grid>
+      </Grid>
     );
   }
 };

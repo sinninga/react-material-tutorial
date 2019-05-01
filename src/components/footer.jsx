@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import AppBar from '@material-ui/core/AppBar';
 
-class Header extends Component {
+class Footer extends Component {
   constructor(props) {
     super(props);
   }
@@ -9,10 +9,10 @@ class Header extends Component {
   render() {
     return (
       <div>
-        heyhey
+        whatwhat
       </div>
     );
   }
 };
 
-export default Header;
+export default Footer;

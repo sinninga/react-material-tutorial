@@ -1,16 +1,31 @@
 import React, { Component } from 'react';
-import AppBar from '@material-ui/core/AppBar';
+import { Paper, Tabs, Tab } from '@material-ui/core';
+
 
 class Footer extends Component {
-  constructor(props) {
-    super(props);
-  }
+  state = {
+    value: 0,
+  };
+
+  handleChange = (event, value) => {
+    this.setState({ value });
+  };
 
   render() {
     return (
-      <div>
-        whatwhat
-      </div>
+      <Paper >
+        <Tabs
+          value={this.state.value}
+          onChange={this.handleChange}
+          indicatorColor="primary"
+          textColor="primary"
+          centered
+        >
+          <Tab label="Item One" />
+          <Tab label="Item Two" />
+          <Tab label="Item Three" />
+        </Tabs>
+      </Paper>
     );
   }
 };

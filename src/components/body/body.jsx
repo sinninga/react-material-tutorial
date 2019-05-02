@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
-import { Grid, Paper } from '@material-ui/core';
+import { Grid } from '@material-ui/core';
+import LeftSide from './left_side';
+import RightSide from './right_side';
+
+
 
 class Body extends Component {
   constructor(props) {
@@ -8,20 +12,16 @@ class Body extends Component {
 
 
   render() {
-  const style = {
+  const styles = {
     Paper: { padding: 20, margin: 10, height: 200 }
   }
     return (
       <Grid container>
         <Grid item sm>
-          <Paper style={style.Paper}>
-            Left Pane
-          </Paper>
+          <LeftSide styles={styles}/>
         </Grid>
         <Grid item sm>
-          <Paper style={style.Paper}>
-            Right Pane
-          </Paper>
+          <RightSide styles={styles}/>
         </Grid>
       </Grid>
     );

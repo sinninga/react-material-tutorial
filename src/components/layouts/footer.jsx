@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
 import { Paper, Tabs, Tab } from '@material-ui/core';
+import { positions } from '../../store.js';
 
 
 class Footer extends Component {
-  state = {
-    value: 0,
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      value: 0,
+      positions: { positions }
+    };
+  }
 
   handleChange = (event, value) => {
     this.setState({ value });
@@ -21,9 +26,10 @@ class Footer extends Component {
           textColor="primary"
           centered
         >
-          <Tab label="Item One" />
-          <Tab label="Item Two" />
-          <Tab label="Item Three" />
+          <Tab label='All'/>
+          {positions.map(group =>
+            <Tab label={group} />
+            )}
         </Tabs>
       </Paper>
     );

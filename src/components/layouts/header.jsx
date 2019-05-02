@@ -12,7 +12,7 @@ class Header extends Component {
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" color="inherit">
-            News
+            Stats
           </Typography>
           <Button color="inherit">Login</Button>
         </Toolbar>

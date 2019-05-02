@@ -11,12 +11,6 @@ class App extends Component {
     players
   }
 
-  // getPlayersByPosition() {
-  //   return this.state.exercises.reduce((exercises, exercise) => {
-  //     const { muscles } = exercise
-  //   })
-  // }
-
   render() {
     return (
       <div>

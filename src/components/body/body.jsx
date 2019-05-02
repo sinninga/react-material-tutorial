@@ -13,7 +13,7 @@ class Body extends Component {
 
   render() {
   const styles = {
-    Paper: { padding: 20, margin: 10, height: 200 }
+    Paper: { padding: 20, margin: 10, height: 200, overflow: 'scroll' }
   }
     return (
       <Grid container>

@@ -2,6 +2,7 @@ import React from 'react';
 import { Paper } from '@material-ui/core';
 import { players } from '../../store.js';
 
+
 export default ({ styles }) =>
   <Paper style={styles.Paper}>
     {players.map((player => {

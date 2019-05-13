@@ -16,7 +16,7 @@ class App extends Component {
       <div>
         <Header/>
         <Body players={players}/>
-        <Footer positions={positions}/>
+        <Footer positions={positions} players={players}/>
       </div>
     );
   }

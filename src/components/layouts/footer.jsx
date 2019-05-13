@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Paper, Tabs, Tab } from '@material-ui/core';
-import { positions } from '../../store.js';
+import { positions, players } from '../../store.js';
 
 
 class Footer extends Component {

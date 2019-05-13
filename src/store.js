@@ -7,60 +7,60 @@ export const players = [
     id: 'phil-phillips',
     name: 'Phil Phillips',
     description: 'Pitcher',
-    muscles: 'p'
+    position: 'p'
   },
   {
     id: 'john-johnson',
     name: 'John Johnson',
     description: 'Catcher',
-    muscles: 'c'
+    position: 'c'
   },
   {
     id: 'chad-chaddington',
     name: 'Chad Chaddington',
     description: '1st base',
-    muscles: '1st'
+    position: '1st'
   },
   {
     id: 'will-williams',
     name: 'Will Williams',
     description: '2nd base',
-    muscles: '2nd'
+    position: '2nd'
   },
   {
     id: 'brad-bradley',
     name: 'Brad Bradley',
     description: '3rd base',
-    muscles: '3rd'
+    position: '3rd'
   },
   {
     id: 'phil-phillips',
     name: 'Phil Phillips',
     description: 'Pitcher',
-    muscles: 'p'
+    position: 'p'
   },
   {
     id: 'john-johnson',
     name: 'John Johnson',
     description: 'Catcher',
-    muscles: 'c'
+    position: 'c'
   },
   {
     id: 'chad-chaddington',
     name: 'Chad Chaddington',
     description: '1st base',
-    muscles: '1st'
+    position: '1st'
   },
   {
     id: 'will-williams',
     name: 'Will Williams',
     description: '2nd base',
-    muscles: '2nd'
+    position: '2nd'
   },
   {
     id: 'brad-bradley',
     name: 'Brad Bradley',
     description: '3rd base',
-    muscles: '3rd'
+    position: '3rd'
   },
 ]

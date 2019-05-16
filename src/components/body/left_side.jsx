@@ -23,6 +23,12 @@ class LeftSide extends Component {
       </Paper>
     );
   }
+
+  componentDidMount() {
+    const tabLabels = document.querySelectorAll('.MuiTab-label-222');
+    console.log(tabLabels[2].outerText);
+
+  }
 }
 
 function mapDispatchToProps(dispatch) {

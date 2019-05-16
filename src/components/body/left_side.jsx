@@ -7,7 +7,7 @@ export default ({ styles }) =>
   <Paper style={styles.Paper}>
     {players.map((player => {
       return (
-        <h5>{player.name}: {player.description}</h5>
+        <h5 key={player.id}>{player.name}: {player.description}</h5>
         )
     }))}
   </Paper>

@@ -34,32 +34,32 @@ export const players = [
     position: '3rd'
   },
   {
-    id: 'phil-phillips',
-    name: 'Phil Phillips',
+    id: 'rick-rickson',
+    name: 'Rick Rickson',
     description: 'Pitcher',
     position: 'p'
   },
   {
-    id: 'john-johnson',
-    name: 'John Johnson',
+    id: 'herbert-herbertson',
+    name: 'Herbert Herbertson',
     description: 'Catcher',
     position: 'c'
   },
   {
-    id: 'chad-chaddington',
-    name: 'Chad Chaddington',
+    id: 'luke-lucas',
+    name: 'Luke Lucas',
     description: '1st base',
     position: '1st'
   },
   {
-    id: 'will-williams',
-    name: 'Will Williams',
+    id: 'mike-michaels',
+    name: 'Mike Michaels',
     description: '2nd base',
     position: '2nd'
   },
   {
-    id: 'brad-bradley',
-    name: 'Brad Bradley',
+    id: 'george-georgeson',
+    name: 'George Georgeson',
     description: '3rd base',
     position: '3rd'
   },

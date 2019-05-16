@@ -28,7 +28,7 @@ class Footer extends Component {
         >
           <Tab label='All'/>
           {positions.map(position =>
-            <Tab label={position} />
+            <Tab label={position} key={position}/>
             )}
         </Tabs>
       </Paper>

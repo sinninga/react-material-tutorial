@@ -7,9 +7,9 @@ export function setPlayers() {
   }
 }
 
-export function selectPlayers() {
+export function selectPlayers(selected_players) {
   return {
     type: 'SELECT_PLAYERS',
-    payload: selectedPlayers
+    payload: selected_players
   }
 }

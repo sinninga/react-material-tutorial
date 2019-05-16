@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import { Paper } from '@material-ui/core';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import { setPlayers } from '../../actions/index';
+import { setPlayers, selectPlayers } from '../../actions/index';
 import styles  from './body';
 import { players }  from '../../store.js';
 
 
 class LeftSide extends Component {
   componentWillMount() {
-    this.props.setPlayers();
+    this.props.selectPlayers(players);
   }
 
   render() {
@@ -33,14 +33,16 @@ class LeftSide extends Component {
 
 function mapDispatchToProps(dispatch) {
   return bindActionCreators(
-    { setPlayers: setPlayers },
+    { setPlayers: setPlayers,
+      selectPlayers: selectPlayers },
     dispatch
   );
 }
 
 function mapStateToProps(state) {
   return {
-    players: state.players
+    players: state.players,
+    selectPlayers: state.selectedPlayers
   };
 }
 

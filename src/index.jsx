@@ -7,9 +7,12 @@ import '../assets/stylesheets/application.scss';
 import App from './components/app.jsx';
 
 import playersReducer from './reducers/players_reducer';
+import selectedPlayersReducer from './reducers/selected_players_reducer';
+
 
 const reducers = combineReducers({
-  players: playersReducer
+  players: playersReducer,
+  selectedPlayers: selectedPlayersReducer
 });
 
 

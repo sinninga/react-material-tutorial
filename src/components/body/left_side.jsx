@@ -24,11 +24,11 @@ class LeftSide extends Component {
     );
   }
 
-  componentDidMount() {
-    const tabLabels = document.querySelectorAll('.MuiTab-label-222');
-    console.log(tabLabels[2].outerText);
+  // componentDidMount() {
+  //   const tabLabels = document.querySelectorAll('.MuiTab-label-222');
+  //   console.log(tabLabels[2].outerText);
 
-  }
+  // }
 }
 
 function mapDispatchToProps(dispatch) {

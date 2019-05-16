@@ -7,10 +7,6 @@ import { positions, players } from '../store.js'
 
 
 class App extends Component {
-  state = {
-    players
-  }
-
   render() {
     return (
       <div>

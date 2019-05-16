@@ -29,7 +29,9 @@
   "dependencies": {
     "@material-ui/core": "^3.9.3",
     "react": "16.8.0",
-    "react-dom": "16.8.0"
+    "react-dom": "16.8.0",
+    "react-redux": "^7.0.3",
+    "redux": "^4.0.1"
   },
   "scripts": {
     "start": "webpack-dev-server --mode development",

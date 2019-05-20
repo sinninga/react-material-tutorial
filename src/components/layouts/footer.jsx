@@ -14,6 +14,8 @@ class Footer extends Component {
 
   handleChange = (event, value) => {
     this.setState({ value });
+    const label = (event.target.innerText);
+    console.log(label);
   };
 
   render() {

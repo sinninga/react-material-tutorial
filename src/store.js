@@ -63,4 +63,11 @@ export const players = [
     description: '3rd base',
     position: '3rd'
   },
+  {
+    id: 'henry-henryson',
+    name: 'Henry Henryson',
+    description: '3rd base',
+    position: '3rd'
+  }
+
 ]
